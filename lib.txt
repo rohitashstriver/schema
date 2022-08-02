@@ -21,3 +21,11 @@ INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 SELECT Shippers.ShipperName, COUNT(Orders.OrderID) AS NumberOfOrders FROM Orders
 LEFT JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
 GROUP BY ShipperName;
+
+sudo apt-get install openjdk-11-jdk
+mysql install
+postmen 
+maven 
+sts ide download
+
+sts initializer(web,mysql-co, jpa)
