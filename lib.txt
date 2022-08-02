@@ -1,0 +1,13 @@
+
+Create Table
+
+CREATE TABLE `stpl_weaver_accesslog` (
+  `serno` int(11) NOT NULL AUTO_INCREMENT,
+  `intime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `outtime` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `url` text NOT NULL,
+  `url_weaver` text NOT NULL,
+  `request` text NOT NULL,
+  `response` text NOT NULL,
+  PRIMARY KEY (`serno`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
